@@ -20,7 +20,3 @@ class Animal:
         mapPhrase = list(map(lambda word: f'{word} {self.animal_sound}', splitPhrase)) # i.e: ['Hello miau', 'world miau']
         finalPhrase = " ".join(mapPhrase) # i.e: 'Lions grrr' + ' ' + 'suck grrr'
         return finalPhrase
-    
-
-if __name__ == '__main__':
-    animal = Animal()

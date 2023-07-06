@@ -26,4 +26,10 @@ For example, the tiger's speak function behaves like this:
 ```
 
 ## Disclaimer
+
 This project was created using Python3, to run the test execute `python3 -m unittest test_animal.py`
+
+Technologies:
+* Python 3
+* FastAPI, run it with `uvicorn main:app --reload`
+* SqlAlchemy

@@ -1,5 +1,5 @@
 import unittest
-import animal
+import src.domain.animal as animal
 
 class TestAnimal(unittest.TestCase):
     def setUp(self):
